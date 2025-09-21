@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, Leaf, Zap } from "lucide-react";
 import heroCommunity from "@/assets/hero-community.jpg";
 
-export const Hero = () => {
+export const Home = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
