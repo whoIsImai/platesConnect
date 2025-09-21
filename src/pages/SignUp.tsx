@@ -10,7 +10,7 @@ import { Checkbox } from '@/components/ui/checkbox';
 import { useToast } from '@/hooks/use-toast';
 import { Loader2, Wheat, ChefHat } from 'lucide-react';
 import { Header } from "@/components/Header";
-import { FormData, UserType } from '../types/auth';
+import { FormData, UserType } from '@/types/auth';
 
 const SignUp = () => {
   const [loading, setLoading] = useState(false);
