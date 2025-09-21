@@ -29,15 +29,15 @@ export const Header = () => {
           <Button 
             variant="outline" 
             className="hidden sm:flex"
-            onClick={() => window.location.href = '/auth'}
+            onClick={() => window.location.href = '/login'}
           >
             Login
           </Button>
           <Button 
             variant="hero"
-            onClick={() => window.location.href = '/auth'}
+            onClick={() => window.location.href = '/signup'}
           >
-            Get Started
+            Sign Up
           </Button>
           <Button variant="ghost" size="icon" className="md:hidden">
             <Menu className="h-5 w-5" />
